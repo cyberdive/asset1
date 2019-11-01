@@ -1,0 +1,129 @@
+{
+  "employees": [
+    {
+      "id": 4000,
+      "job": "CEO",
+      "firstName": "Michael",
+      "lastName": "Gledhill",
+      "imageUrl": "https://process.filestackapi.com/cache=expiry:max/resize=width:200/FYYq9KL6TnqtOT6TuQ3g",
+      "DOB": "1980-12-25T00:00:00",
+      "phoneNumber": "044 123 4567",
+      "xpos": 420,
+      "ypos": 30
+    },
+    {
+      "id": 4001,
+      "job": "Head of sales",
+      "firstName": "Monica",
+      "lastName": "Eichofsen",
+      "imageUrl": "../../assets/EmployeePhotos/Monica.png",
+      "DOB": "1985-03-25T00:00:00",
+      "phoneNumber": "041 343 2322",
+      "xpos": 200,
+      "ypos": 200
+    },
+    {
+      "id": 4002,
+      "job": "COO",
+      "firstName": "Boris",
+      "lastName": "Muller",
+      "imageUrl": "../../assets/EmployeePhotos/Boris.png",
+      "DOB": "1970-10-12T00:00:00",
+      "phoneNumber": "044 123 0000",
+      "xpos": 650,
+      "ypos": 200
+    },
+    {
+      "id": 4003,
+      "job": "Head of development",
+      "firstName": "Theresa",
+      "lastName": "Bergstein",
+      "imageUrl": "../../assets/EmployeePhotos/Theresa.png",
+      "DOB": "1983-02-20T00:00:00",
+      "phoneNumber": "044 392 3939",
+      "xpos": 650,
+      "ypos": 390
+    },
+    {
+      "id": 4004,
+      "job": "Senior Developer",
+      "firstName": "Charles",
+      "lastName": "Jones",
+      "imageUrl": "../../assets/EmployeePhotos/Charles.png",
+      "DOB": "1992-10-12T00:00:00",
+      "phoneNumber": "042 238 2382",
+      "xpos": 520,
+      "ypos": 580
+    },
+    {
+      "id": 4005,
+      "job": "Senior Developer",
+      "firstName": "Meg",
+      "lastName": "Edwards",
+      "imageUrl": "../../assets/EmployeePhotos/Meg.png",
+      "DOB": "1995-03-23T00:00:00",
+      "phoneNumber": "079 127 2372",
+      "xpos": 795,
+      "ypos": 580
+    },
+    {
+      "id": 4006,
+      "job": "Area manager",
+      "firstName": "Markus",
+      "lastName": "Johnson",
+      "imageUrl": "../../assets/EmployeePhotos/Bruce.png",
+      "DOB": "1992-10-20T00:00:00",
+      "phoneNumber": "078 810 2382",
+      "xpos": 200,
+      "ypos": 390
+    },
+    {
+      "id": 4007,
+      "job": "Junior developer",
+      "firstName": "Naomi",
+      "lastName": "Gledhill",
+      "imageUrl": "../../assets/EmployeePhotos/Naomi.png",
+      "DOB": "2009-10-26T00:00:00",
+      "phoneNumber": "079 127 2372",
+      "xpos": 795,
+      "ypos": 810
+    }
+  ],
+  "relationships": [
+    {
+      "employeeId": 4000,
+      "managerId": 4001,
+      "type": "Manager"
+    },
+    {
+      "employeeId": 4000,
+      "managerId": 4002,
+      "type": "Manager"
+    },
+    {
+      "employeeId": 4001,
+      "managerId": 4006,
+      "type": "Manager"
+    },
+    {
+      "employeeId": 4002,
+      "managerId": 4003,
+      "type": "Manager"
+    },
+    {
+      "employeeId": 4003,
+      "managerId": 4004,
+      "type": "Sub-manager"
+    },
+    {
+      "employeeId": 4003,
+      "managerId": 4005,
+      "type": "Sub-manager"
+    },
+    {
+      "employeeId": 4005,
+      "managerId": 4007,
+      "type": "Manager"
+    }
+  ]
+}
